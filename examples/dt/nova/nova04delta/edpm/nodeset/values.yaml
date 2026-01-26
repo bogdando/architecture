@@ -196,6 +196,6 @@ data:
       conf: |
         # CHANGEME
         [pci]
-        device_spec = {"vendor_id":"10de", "product_id":"20f1", "address": "CHANGEME" }
-        alias = { "vendor_id":"10de", "product_id":"20f1", "device_type":"type-PF", "name":"nvidia_a2" }
+        device_spec = {"vendor_id":"10de", "product_id":"20f1", "device_type":"type-PF", "address": "CHANGEME" }
+        alias = { "vendor_id":"10de", "product_id":"20f1", "name":"nvidia_a2" }
         report_in_placement = True

@@ -66,7 +66,7 @@ data:
     apiServiceTemplate:
       customServiceConfig: |
         [pci]
-        alias = { "vendor_id":"10de", "product_id":"20f1", "device_type":"type-PF", "name":"nvidia_a2" }
+        alias = { "vendor_id":"10de", "product_id":"20f1", "name":"nvidia_a2" }
         [filter_scheduler]
         pci_in_placement = True
     cell0:
